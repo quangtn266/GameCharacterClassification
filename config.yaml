@@ -1,0 +1,27 @@
+augmentation:
+  prob_big: 0.35
+  prob_small: 0.35
+data:
+  bg_aug: true
+  bg_aug_prob: 0.5
+  dataset_path: /Users/quangtn/Desktop/working_space/job_1/Source/viact/mmsegmentation_viact-viact/viact/test/image_classification/dataset_txt
+  type: legenddata
+data_ignored: null
+data_proportion:
+  test: 0.23
+  train: 0.5
+  val: 0.27
+input_size: 138
+loss: crossentropyloss
+model: mobilenetv2_035
+optimizer:
+  init_lr: 0.005
+  lr_step: 30
+  momentum: 0.9
+  sam: true
+  type: sgd
+  weight_decay: 0.005
+runtime:
+  batch_size: 35
+  eval_freq: 1
+  total_epoch: 10
