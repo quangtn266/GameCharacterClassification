@@ -49,4 +49,4 @@ python predict.py --cfg ./config.yaml --model ./experiments/legenddata/2023-04-1
 
 You can check my outputs in results with trained models (efficientnet_b1_pruned/ mobilenetv2_035/ resnet18) that include the results of test.py (check_wrong_match) and predict.py (output.txt)
 
-## Link for data and experiment result. ([link]([url](https://drive.google.com/drive/folders/1lYmy7-diSegug3Yi--bETYJZyC3OYGni?usp=sharing)https://drive.google.com/drive/folders/1lYmy7-diSegug3Yi--bETYJZyC3OYGni?usp=sharing))
+## Link for data and experiment result. ([link]([https://drive.google.com/drive/folders/1lYmy7-diSegug3Yi--bETYJZyC3OYGni?usp=sharing])
